@@ -30,7 +30,10 @@ SECRET_KEY = 'Pine@pple8347Xz$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'codestar-is-blog-b6bff87418f6.herokuapp.com',
+                 
+                 ]
 
 
 # Application definition
@@ -93,7 +96,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000/admin/',
     'http://127.0.0.1'
     "http://127.0.0.1:8000",
-    "hhttps://codestar-is-blog-b6bff87418f6..herokuapp.com",
+    "hhttps://codestar-is-blog-b6bff87418f6.herokuapp.com/",
 ]
 
 # Password validation
