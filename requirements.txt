@@ -7,4 +7,4 @@ setuptools==75.8.2
 sqlparse==0.5.3
 typing_extensions==4.12.2
 whitenoise==6.5.0
-django-summernote-0.8.20.0
+django-summernote==0.8.20.0
