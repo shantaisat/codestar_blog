@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container">
+    <h1>{{ about.title }}</h1>
+    <p>{{ about.content }}</p>
+    <small>Last updated: {{ about.updated_on }}</small>
+  </div>
+{% endblock %}
