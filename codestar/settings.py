@@ -30,7 +30,7 @@ SECRET_KEY = 'Pine@pple8347Xz$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1',
                  'codestar-is-blog-b6bff87418f6.herokuapp.com',
