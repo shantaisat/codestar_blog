@@ -1,4 +1,4 @@
-from .models import CollaborateRequest
+from . import CollaborateRequest
 from django import forms
 
 
