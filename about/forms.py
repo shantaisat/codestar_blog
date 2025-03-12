@@ -1,5 +1,5 @@
-from . import CollaborateRequest
 from django import forms
+from .models import CollaborateRequest
 
 
 class CollaborateForm(forms.ModelForm):
